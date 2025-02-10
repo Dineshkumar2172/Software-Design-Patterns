@@ -1,1 +1,2 @@
 solid principles overiew - https://www.freecodecamp.org/news/solid-design-principles-in-software-development/
+all creational design patterns - https://youtu.be/OuNOyFg942M
