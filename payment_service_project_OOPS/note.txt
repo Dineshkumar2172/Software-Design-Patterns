@@ -1,0 +1,3 @@
+Design a payment service.
+
+For this example, we can assume payment service should be responsible for storing details of payment methods (Credit card, Debit card etc) that belong to a user and also have a makePayment() method.

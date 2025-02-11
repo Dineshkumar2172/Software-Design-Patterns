@@ -1,4 +1,4 @@
-package behavioural_design_patterns;
+package design_patterns.behavioural_design_patterns;
 
 public class ChainOfResponsibilityMethodDesignPattern {
     

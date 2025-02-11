@@ -1,4 +1,4 @@
-package creational_design_patterns;
+package design_patterns.creational_design_patterns;
 
 public class SingletonMethodDesignPattern {
     // It is used when we need to create only one instance of a class.
