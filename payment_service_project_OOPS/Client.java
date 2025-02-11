@@ -6,9 +6,11 @@ public class Client {
         ps.addPaymentMethod("DineshkumarDebitCard", new DebitCard("76482910349", "Dineshkumar"));
         ps.addPaymentMethod("DineshkumarCreditCard", new CreditCard("673828372649", "Dineshkumar"));
         ps.addPaymentMethod("DineshkumarUPI", new UPI("dinesh876987@upi"));
+        ps.addPaymentMethod("DineshkumarWallet", new Wallet("dineshpaytm"));
 
         ps.makePayment("DineshkumarDebitCard");
         ps.makePayment("DineshkumarCreditCard");
         ps.makePayment("DineshkumarUPI");
+        ps.makePayment("DineshkumarWallet");
     }
 }
