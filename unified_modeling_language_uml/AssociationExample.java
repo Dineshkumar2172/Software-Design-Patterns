@@ -34,6 +34,9 @@ public class AssociationExample {
     public static void main(String[] args) {
 
         // Association - A relationship between two classes that represents interactions between objects.
+        //
+        // Association represents a relationship between two or more classes. In this case, each object in
+        // one class is associated with one or more objects of another class.
 
         Student student = new Student("Harish");
         Teacher teacher = new Teacher("Mohan");
