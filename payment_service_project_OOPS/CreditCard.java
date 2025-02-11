@@ -6,7 +6,8 @@ public class CreditCard extends Card{
     }
 
     public void pay() {
-        System.out.println("Making payment via credit card");
+        // since cardNo is protected, it can be accessed from child class
+        System.out.println("Making payment via credit card " + cardNo);
     }
 
 }
