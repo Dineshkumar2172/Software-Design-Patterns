@@ -17,5 +17,6 @@ public class UnifiedModelingLanguage {
      *      5. Inheritance: Represents an "is-a" relationship, where a subclass inherits from a superclass.
      *      6. Composition: A stronger association where one object is part of another and cannot exist independently.
      *      7. Aggregation: A weaker form of association where one object contains another, but they can exist independently.
+     *      8. Dependancy: Where one class depends on another for its functionality.
      */
 }
