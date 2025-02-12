@@ -23,7 +23,14 @@ Open-Closed Principle
 Liskov Substitution Principle
 
         1. The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of a subclass
-        without altering the correctness of the program. It ensures that a subclass can stand in for its parent class and function
-        correctly in any context that expects the parent class.
+           without altering the correctness of the program. It ensures that a subclass can stand in for its parent class and function
+           correctly in any context that expects the parent class.
 
         2. No client should be forced to depend on methods it doesn't use. Split larger interfaces into smaller, more specific ones.
+
+
+Interface Segregation Principle
+
+        1. The Interface Segregation Principle ensures that classes are not burdened with methods thay don't need. It promotes
+           better design by breaking large, general-purpose interfaces into smaller, more specific ones. It improves maintainability,
+           flexibility and testability by ensuring that classes only have the dependancies they actually require.
