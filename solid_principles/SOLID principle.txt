@@ -19,3 +19,11 @@ Open-Closed Principle
         1. Software entities (classes, modules and functions) should be open for extension but closed for modification.
 
         Example: Adding new functionality to a system using inheritance or composition without modifying existing code.
+
+Liskov Substitution Principle
+
+        1. The Liskov Substitution Principle states that objects of a superclass should be replaceable with objects of a subclass
+        without altering the correctness of the program. It ensures that a subclass can stand in for its parent class and function
+        correctly in any context that expects the parent class.
+
+        2. No client should be forced to depend on methods it doesn't use. Split larger interfaces into smaller, more specific ones.
