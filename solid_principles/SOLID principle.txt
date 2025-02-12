@@ -6,3 +6,10 @@ aim to make software more understandable, flexible and maintainable by following
 3. L - Liskov Substitution Principle (LSP)
 4. I - Interface Segregation Principle (ISP)
 5. D - Dependancy Inversion Principle (DIP)
+
+Single Responsibility Principle
+
+        1. A class should have only one reason to change, meaning it should have only one responsibility.
+
+        Example: A user class should only handle user related logic, while database-related operations should be
+        handled by a separate UserRepository class.
