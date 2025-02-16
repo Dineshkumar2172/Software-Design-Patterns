@@ -1,0 +1,14 @@
+What are design patterns?
+
+    1. A design pattern is a general, reusable solution to a common problem within a specific context in software design.
+    2. Patterns are blueprints that can be applied in multiple situations, but they are not direct pieces of code.
+    3. They focus on object interactions, system architecture, and how classes/objects communicate.
+
+
+Benefits of Design Pattern
+    
+    1. Code reusability - patterns provide proven solutions that can be applied in multiple projects.
+    2. Maintainability - Encourages clean, understandable and structured code, which is easier to maintain and extend.
+    3. Communication - Design patterns act as a common language between developers, improving communication and understanding.
+    4. Scalability - Design patterns help in structuring code to support future scaling with fewer refactors.
+    5. Efficiency - Avoids reinventing the wheel by using well-tested and widely accepted solutions.
