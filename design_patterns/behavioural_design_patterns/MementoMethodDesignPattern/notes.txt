@@ -3,3 +3,8 @@ Momento Pattern
 Problem: How to provide undo/redo functionality or state restoration without exposing the objects internal state and breaking encapsulation.
 
 Solution: The memento pattern captures the internal state of an object in a memento, allowing the object to restore its state later on without revealing internal details.
+
+Memento Pattern Structure
+    1. Originator: The object whose state needs to be saved and restored.
+    2. Memento: captures and stores the internal state of the originator.
+    3. CareTaker: Manages and stores the mementos, without modifying them.
