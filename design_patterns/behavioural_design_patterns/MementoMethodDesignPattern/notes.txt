@@ -8,3 +8,15 @@ Memento Pattern Structure
     1. Originator: The object whose state needs to be saved and restored.
     2. Memento: captures and stores the internal state of the originator.
     3. CareTaker: Manages and stores the mementos, without modifying them.
+
+Memento Pattern Applications
+    
+    Undo/Redo in Applications: Commonly used in text editors, drawing applications or any system that requires history management,
+
+    State Restoration: Used in scenario's where you need to periodically save systems states. (e.g. games, data recovery) and allows user to return to previous states.
+
+    Use Cases:
+
+        1. Games: Saving the game state for load/reload functionality.
+
+        2. Document Editors: Undo/Redo functionality to navigate through document changes.
