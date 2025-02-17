@@ -1,0 +1,1 @@
+Suppose we have a weather station that records temperature and multiple devices (e.g. display units) wants to show the latest temperature. Without using the observer pattern, the weather station would have to explicitly inform each device about temperature change, which results in tight coupling between station and devices.
