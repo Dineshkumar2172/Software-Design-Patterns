@@ -16,7 +16,5 @@ Memento Pattern Applications
     State Restoration: Used in scenario's where you need to periodically save systems states. (e.g. games, data recovery) and allows user to return to previous states.
 
     Use Cases:
-
         1. Games: Saving the game state for load/reload functionality.
-
         2. Document Editors: Undo/Redo functionality to navigate through document changes.
