@@ -18,3 +18,5 @@ Memento Pattern Applications
     Use Cases:
         1. Games: Saving the game state for load/reload functionality.
         2. Document Editors: Undo/Redo functionality to navigate through document changes.
+
+reference: https://www.geeksforgeeks.org/memento-design-pattern/ 
