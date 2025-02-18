@@ -1,0 +1,10 @@
+Problems in code implemented in WithoutStrategyPattern directory
+
+        1. The PaymentService class has multiple responsibilities (deciding the payment type and then processing it)
+
+        2. Additing new payment method required modifying existing PaymentService class. (Violation of OCP)
+
+        3. The use of if-else conditions will make the code more harder to maintain as more payment types are added.
+
+With Strategy Pattern - the logic for each payment method is encapsulated into separate strategy classes, and the PaymentService (Context Class)
+delegates the ask of payment processing to one of these strategies at runtime.
