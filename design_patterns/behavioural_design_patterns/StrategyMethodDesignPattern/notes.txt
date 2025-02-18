@@ -1,6 +1,6 @@
 Problems in code implemented in WithoutStrategyPattern directory
 
-        1. The PaymentService class has multiple responsibilities (deciding the payment type and then processing it)
+        1. The PaymentService class has multiple responsibilities (deciding the payment type and then processing it) (Violation of SRP)
 
         2. Additing new payment method required modifying existing PaymentService class. (Violation of OCP)
 
