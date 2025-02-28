@@ -11,4 +11,11 @@ Problems in TextEditor implemented without using command pattern.
 Command Pattern
 
     By introducing the command pattern, we can decouple the actions (bold, italic, underline) from the UI components (buttons), making the design more flexible and maintainable. The buttons no longer need to know about the editor directly but instead works with generic command objects,
-    
+
+Command Pattern Structure
+
+    1. Command: Interface for executing operations.
+
+    2. Invoker: Sends the command.
+
+    3. Receiver: Performs the operation.
