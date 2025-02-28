@@ -1,3 +1,14 @@
 Imagine you're developing a basic text editor with buttons for bold, italic and underline text formatting.
 
 Without the command pattern, the buttons directly interact with the TextEditor class, and you'd end up hardcoding behaviour into the UI classes, making them tightly coupled.
+
+Problems in TextEditor implemented without using command pattern.
+
+    1. Each button class is tightly coupled with the TextEditor. If the action changes, all button classes need to be modified.
+
+    2. It's harder to extend with new commands or add functionality such as undo/redo or logging.
+
+Command Pattern
+
+    By introducing the command pattern, we can decouple the actions (bold, italic, underline) from the UI components (buttons), making the design more flexible and maintainable. The buttons no longer need to know about the editor directly but instead works with generic command objects,
+    
