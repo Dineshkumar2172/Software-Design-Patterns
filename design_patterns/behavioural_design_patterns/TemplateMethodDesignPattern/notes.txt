@@ -16,3 +16,5 @@ Structure:
         1. Abstract class: Defines the algorithm skeleton.
 
         2. Concrete Subclasses: Override specific steps of the algorithm.
+
+A "hook" is a method in the base class with a default or empty implementation that subclasses can override to extend or modify behaviour.
