@@ -1,3 +1,9 @@
 Consider a scenario where you have different data parsers (e.g. CSV, XML and JSON). Each parser follows the same steps: open file, parse data and close file.
 
 Without the template method pattern, you might end up duplicating the common steps in each parser class.
+
+Problems in our code implemented without template pattern :-
+
+        1. Code Duplication: The openFile() and closeFile() methods are duplicated in both parsers.
+
+        2. Any changes to the common logic would require changes in every parser, violating the DRY (Don't Repeat Yourself) principle.
