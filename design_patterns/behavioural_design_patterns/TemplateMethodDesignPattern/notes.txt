@@ -7,3 +7,12 @@ Problems in our code implemented without template pattern :-
         1. Code Duplication: The openFile() and closeFile() methods are duplicated in both parsers.
 
         2. Any changes to the common logic would require changes in every parser, violating the DRY (Don't Repeat Yourself) principle.
+
+Problem - Different parts of an algorithm may need to vary in subclasses, but the overall structure should remain consistent.
+
+Solution - The template method pattern defines the skeleton of an algorithm in a base class and lets subclasses override specific steps.
+
+Structure:
+        1. Abstract class: Defines the algorithm skeleton.
+
+        2. Concrete Subclasses: Override specific steps of the algorithm.
