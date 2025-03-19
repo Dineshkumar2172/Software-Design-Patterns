@@ -55,6 +55,11 @@ public class Strategy {
     //      Concrete Strategies → Implement the algorithm in different ways.
     //      Context → Maintains a reference to a Strategy and delegates execution to it.
 
+    // 🔹 When to Use Strategy Pattern?
+    //      ✅ Multiple algorithms for the same task (sorting, encryption, logging).
+    //      ✅ Dynamic behavior selection at runtime (payment methods, shipping costs).
+    //      ✅ Avoiding if-else chains in decision-making logic.
+
     public static void main(String[] args) {
         CreditCardPaymentService creditCard = new CreditCardPaymentService("786287368762");
 
