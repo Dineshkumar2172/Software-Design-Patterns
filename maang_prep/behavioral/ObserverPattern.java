@@ -3,8 +3,6 @@ package maang_prep.behavioral;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.w3c.dom.events.Event;
-
 // observer interface
 interface Observer {
     void update(float temperature, float humidity);
@@ -58,7 +56,7 @@ class WeatherDisplay implements Observer {
 }
 
 public class ObserverPattern {
-    
+
     // ✅ Event listeners in UI frameworks (Swing, React.js hooks).
     // ✅ Stock Market apps where multiple users observe price changes.
     // ✅ Messaging systems (publish-subscribe mechanisms like Kafka, RabbitMQ).
