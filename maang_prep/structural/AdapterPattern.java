@@ -40,6 +40,7 @@ public class AdapterPattern {
     // ✅ Integrating legacy code with modern systems.
     // ✅ Making two incompatible interfaces work together.
     // ✅ Avoiding code modification in existing classes.
+    
     public static void main(String[] args) {
         MicroUSB oldPhone = new MicroUSB();
 
