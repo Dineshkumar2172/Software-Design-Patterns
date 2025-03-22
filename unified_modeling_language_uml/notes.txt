@@ -1,0 +1,39 @@
+Key Components of a Class Diagram
+
+1. Classes → Represented as rectangles with three sections:
+
+        * Class Name
+
+        * Attributes (Variables)
+
+        * Methods (Functions)
+
+2. Relationships → How classes are connected:
+
+        * Association (Solid line) → A general relationship between two classes.
+
+        * Inheritance (Generalization) (Arrow with empty triangle) → "is-a" relationship (e.g., Dog is-a Animal).
+
+        * Aggregation (Hollow diamond) → "has-a" relationship where one class contains another, but they exist independently.
+
+        * Composition (Filled diamond) → A strong "has-a" relationship where the contained object cannot exist without the parent.
+
+        * Dependency (Dashed line) → One class depends on another but does not own it.
+
+Example: E-Commerce System - Imagine an E-commerce system with the following classes:
+
+        -> User (username, email, password)
+
+        -> Order (orderId, date, status)
+
+        -> Product (name, price, stock)
+
+        -> Payment (paymentId, amount, method)
+
+Relationships Explained
+
+        1. A User can place multiple Orders → 1 to * association.
+
+        2. An Order contains multiple Products → * to * association.
+
+        3. An Order is associated with one Payment → 1 to 1 association.
