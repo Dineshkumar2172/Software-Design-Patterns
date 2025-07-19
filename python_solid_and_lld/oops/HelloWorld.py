@@ -31,6 +31,19 @@ class Book:
     
     def get_book_info(self) -> str:
         return f'{self.title} by {self.author.get_author_info()}, published in {self.pub_year}'
+    
+
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        print(f"{self.name} makes a sound")
+
+# inheritance
+class Dog(Animal):
+    def speak(self):
+        print(f"{self.name} barks!")
 
 
 if __name__ == "__main__":
@@ -54,3 +67,6 @@ if __name__ == "__main__":
     author = Author("James", "23.3.1978")
     book = Book("all is well", 2000, author)
     print(book.get_book_info())
+
+    dog = Dog("dog")
+    dog.speak()
