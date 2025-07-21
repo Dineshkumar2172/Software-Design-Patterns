@@ -26,7 +26,6 @@ class Shape:
     @abstractmethod
     def area(self): pass
 
-
 class Circle2(Shape):
     def __init__(self, radius):
         self.radius = radius
