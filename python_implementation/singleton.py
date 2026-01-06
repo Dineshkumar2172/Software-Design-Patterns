@@ -9,6 +9,13 @@ class SingletonClass:
         if cls._lock:
             with cls._lock:
                 if not cls._instance:
+                    """
+                    super().__new__(cls) calls the parent class's __new__ method, usually object.__new__, 
+                    which allocates memory and returns a new instance of the class while respecting Python's MRO.
+                    
+                    what do you mean by parent class, I'm not inheriting anything here....
+                    ans: Even if you don’t explicitly inherit from anything, every Python class automatically inherits from object
+                    """
                     cls._instance = super().__new__(cls)
 
         return cls._instance
